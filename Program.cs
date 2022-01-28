@@ -9,13 +9,9 @@ namespace Cartel
             Cartel cartel = new Cartel();
             MafiaBoss mafiaBoss = new MafiaBoss();
             DrugDealer drugDealer = new DrugDealer();
-            Slave slave = new Slave();
+            Chemistry_professor professor = new Chemistry_professor();
 
-            mafiaBoss.drugAddiction();
-            mafiaBoss.cartelName();
-            mafiaBoss.powerfulContacts();
-            mafiaBoss.goldCard();
-
+            drugDealer.drugAddiction();
         }
     }
 }

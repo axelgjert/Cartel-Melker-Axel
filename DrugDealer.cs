@@ -6,6 +6,21 @@ namespace Cartel
 {
     class DrugDealer : Cartel
     {
+        public override void drugAddiction()
+        {
+            Console.WriteLine("The drug dealer is addicted to weed.");
+        }
+
+        public override void cartelName()
+        {
+            Console.WriteLine("The drug dealer knows the cartel name..");
+        }
+
+        public override void realName()
+        {
+            Console.WriteLine("The dealers real name is Ahmed");
+        }
+
         public void powerfulPassport()
         {
             Console.WriteLine("The drug dealer can fly all over the world.");

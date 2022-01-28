@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cartel
 {
-    class MafiaBoss : Cartel
+    class MafiaBoss : Cartel 
     {
         public override void drugAddiction()
         {
@@ -14,6 +14,11 @@ namespace Cartel
         public override void cartelName()
         {
             Console.WriteLine("The Mafia Boss's name is Gustavo so the cartels name is obviously Gustavos Cartel");
+        }
+
+        public override void realName()
+        {
+            Console.WriteLine("The Mafia Boss's name is Gustavo");
         }
 
         public void goldCard()
