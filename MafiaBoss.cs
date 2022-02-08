@@ -4,8 +4,19 @@ using System.Text;
 
 namespace Cartel
 {
+
+
     class MafiaBoss : Cartel 
     {
+        public List<DrugDealer> worker1 = new List<DrugDealer>();
+        public List<Professor> worker2 = new List<Professor>();
+ 
+        public MafiaBoss(int aage, string arole, double aweight, string arealname)
+            :base(aage, arole, aweight, arealname)
+        {
+            
+        }
+
         public override void drugAddiction()
         {
             Console.WriteLine("The Mafia Boss is addicted to cocaine.");
@@ -14,11 +25,6 @@ namespace Cartel
         public override void cartelName()
         {
             Console.WriteLine("The Mafia Boss's name is Gustavo so the cartels name is obviously Gustavos Cartel");
-        }
-
-        public override void realName()
-        {
-            Console.WriteLine("The Mafia Boss's name is Gustavo");
         }
 
         public void goldCard()

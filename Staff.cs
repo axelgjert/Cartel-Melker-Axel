@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cartel
 {
-    class Lab_Card
+    class Staff
     {
 
     }

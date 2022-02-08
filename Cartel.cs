@@ -6,10 +6,19 @@ namespace Cartel
 {
     class Cartel
     {
-        string regularname;
-        int age;
-        double height;
-        double weight;
+        public int age { get; set; }
+        public string role { get; set; }
+        public double weight { get; set; }
+        public string realname { get; set; }
+        
+        public Cartel(int aage, string arole, double aweight, string arealname)
+        {
+            this.age = aage;
+            this.role = arole;
+            this.weight = aweight;
+            this.realname = arealname;
+
+        }
     
 
         public virtual void drugAddiction()
@@ -19,7 +28,7 @@ namespace Cartel
 
         public virtual void drugKnownledge()
         {
-            Console.WriteLine("This employee knows everything about drugs.");
+            Console.WriteLine($"The {role} knows everything about drugs.");
         }
 
         public virtual void cartelName()
@@ -31,5 +40,6 @@ namespace Cartel
         {
             Console.WriteLine("All employees have a real name aswell as their cartel name.");
         }
+        
     }
 }

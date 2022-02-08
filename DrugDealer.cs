@@ -6,6 +6,12 @@ namespace Cartel
 {
     class DrugDealer : Cartel
     {
+        public DrugDealer(int aage, string arole, double aweight, string arealname)
+            : base(aage, arole, aweight, arealname)
+        {
+            
+        }
+
         public override void drugAddiction()
         {
             Console.WriteLine("The drug dealer is addicted to weed.");
