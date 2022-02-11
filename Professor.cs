@@ -30,7 +30,5 @@ namespace Cartel
         {
             Console.WriteLine($"The professors real name is {realname}");
         }
-
-
     }
 }

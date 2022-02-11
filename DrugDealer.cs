@@ -15,6 +15,11 @@ namespace Cartel
             Console.WriteLine("The drug dealer is addicted to weed.");
         }
 
+        public override void drugKnownledge()
+        {
+            Console.WriteLine("The Drug Dealer can get you whatever you want from his pockets.");
+        }
+
         public override void cartelName()
         {
             Console.WriteLine("The drug dealer knows the cartel name..");

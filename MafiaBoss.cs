@@ -21,6 +21,11 @@ namespace Cartel
             Console.WriteLine("The Mafia Boss is addicted to cocaine.");
         }
 
+        public override void drugKnownledge()
+        {
+            Console.WriteLine("The Mafia Boss can roll a joint with his hands behind his back.");
+        }
+
         public override void cartelName()
         {
             Console.WriteLine("The Mafia Boss's name is Gustavo so the cartels name is obviously Gustavos Cartel");

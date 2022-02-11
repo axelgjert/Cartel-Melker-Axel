@@ -18,22 +18,27 @@ namespace Cartel
 
         public virtual void drugAddiction()
         {
-            Console.WriteLine("All emplyees in Gustavos cartel have a drug addiction..");
+            Console.WriteLine();
         }
 
         public virtual void drugKnownledge()
         {
-            Console.WriteLine($"The {role} knows everything about drugs.");
+            Console.WriteLine();
         }
 
         public virtual void cartelName()
         {
-            Console.WriteLine("This employee knows the cartel name.. It's Gustavos Cartel, but don't tell anyone.");
+            Console.WriteLine();
         }
 
         public virtual void realName()
         {
-            Console.WriteLine("All employees have a real name aswell as their cartel name.");
+            Console.WriteLine($"The {role}s real name is {realname}. ");
+        }
+
+        public virtual void Age()
+        {
+            Console.WriteLine($"The {role} is {age} years old.");
         }
     }
 }

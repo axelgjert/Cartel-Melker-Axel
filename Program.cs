@@ -18,7 +18,7 @@ namespace Cartel
 
             string choice;
 
-            Console.WriteLine("Welcome to the Cartel. We have heard that you are our new boss. Do you want to know more about the cartel Y/N?");
+            Console.WriteLine("The Mafia Boss Gustavo welcomes you to the Cartel. Do you want to know more about the cartel Y/N?");
             choice = Console.ReadLine();
 
             if (choice == "Y")
@@ -27,7 +27,7 @@ namespace Cartel
             }
             else
             {
-                Console.WriteLine("You got shot by one of Gustavos assistants and got sent back to the lobby");
+                Console.WriteLine("You got shot by one of Gustavos assistants..");
             }
         }
 
@@ -63,6 +63,7 @@ namespace Cartel
                     Console.WriteLine("-------------------------------------------------");
                     drugDealer.drugKnownledge();
                     drugDealer.drugAddiction();
+                    drugDealer.cartelName();
                     Console.WriteLine("-------------------------------------------------");
 
                     learnMore(cartel, mafiaBoss, drugDealer, professor);
@@ -73,6 +74,8 @@ namespace Cartel
                     Console.WriteLine("Professor information tab: ");
                     Console.WriteLine("-------------------------------------------------");
                     professor.Createdrugs();
+                    professor.realName();
+                    professor.cartelName();
                     Console.WriteLine("-------------------------------------------------");
 
                     learnMore(cartel, mafiaBoss, drugDealer, professor);
