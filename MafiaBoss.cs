@@ -1,20 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Cartel
 {
 
 
-    class MafiaBoss : Cartel 
+    class MafiaBoss : Cartel
     {
         public List<DrugDealer> worker1 = new List<DrugDealer>();
         public List<Professor> worker2 = new List<Professor>();
- 
-        public MafiaBoss(int aage, string arole, double aweight, string arealname)
-            :base(aage, arole, aweight, arealname)
+
+        public MafiaBoss(int aage, string arole, string arealname)
+            : base(aage, arole, arealname)
         {
-            
+
         }
 
         public override void drugAddiction()

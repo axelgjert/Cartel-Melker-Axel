@@ -6,6 +6,14 @@ namespace Cartel
 {
     class SwipeCard
     {
-        
+         public void Swipe(Cartel obj)
+        {
+           
+        }
+        public string MakeofSwipeCard()
+        {
+            return "Tja";
+        }
+            
     }
 }

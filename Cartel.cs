@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Cartel
 {
@@ -8,18 +6,15 @@ namespace Cartel
     {
         public int age { get; set; }
         public string role { get; set; }
-        public double weight { get; set; }
         public string realname { get; set; }
-        
-        public Cartel(int aage, string arole, double aweight, string arealname)
+
+        public Cartel(int aage, string arole, string arealname)
         {
             this.age = aage;
             this.role = arole;
-            this.weight = aweight;
             this.realname = arealname;
 
         }
-    
 
         public virtual void drugAddiction()
         {
@@ -40,6 +35,5 @@ namespace Cartel
         {
             Console.WriteLine("All employees have a real name aswell as their cartel name.");
         }
-        
     }
 }

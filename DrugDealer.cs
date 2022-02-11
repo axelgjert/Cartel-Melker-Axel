@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Cartel
 {
     class DrugDealer : Cartel
     {
-        public DrugDealer(int aage, string arole, double aweight, string arealname)
-            : base(aage, arole, aweight, arealname)
+        public DrugDealer(int aage, string arole, string arealname)
+            : base(aage, arole, arealname)
         {
-            
+
         }
 
         public override void drugAddiction()
@@ -24,7 +22,7 @@ namespace Cartel
 
         public override void realName()
         {
-            Console.WriteLine("The dealers real name is Ahmed");
+            Console.WriteLine($"The dealers real name is {realname}");
         }
 
         public void powerfulPassport()
